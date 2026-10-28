@@ -1,0 +1,21 @@
+{
+  "name": "fitmatch",
+  "version": "1.0.0",
+  "description": "FitMatch — buddy & dating matchmaking for people who move (demo)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "reset": "rm -f fitmatch.db fitmatch.db-shm fitmatch.db-wal && node seed.js",
+    "test": "./test-api.sh"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "express": "^4.22.3"
+  },
+  "engines": {
+    "node": ">=22.5"
+  }
+}
