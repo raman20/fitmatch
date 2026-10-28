@@ -80,7 +80,7 @@ function renderLogin() {
       <button class="btn" style="margin-top:14px">${tab === 'login' ? 'Log in' : 'Create account'}</button>
     </form>
     <button class="btn ghost" id="demoBtn">⚡ Try the demo account</button>
-    <p class="muted small" style="text-align:center;margin-top:14px">FitMatch is 18+ only. All 20 profiles you'll see are <b>fictional sample data</b>.</p>`;
+    <p class="muted small" style="text-align:center;margin-top:14px">FitMatch is 18+ only. All 500 profiles you'll see are <b>fictional sample data</b>.</p>`;
     document.querySelectorAll('.tabs .chip').forEach(c => c.onclick = () => { tab = c.dataset.t; draw(); });
     $('#authForm').onsubmit = async e => {
       e.preventDefault(); const f = new FormData(e.target);

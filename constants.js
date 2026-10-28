@@ -6,5 +6,5 @@ module.exports = {
   TIMES: ['Early morning', 'Morning', 'Afternoon', 'Evening', 'Night'],
   GENDERS: ['Woman', 'Man', 'Non-binary'],
   VENUE_TYPES: ['Gym', 'Park', 'Studio', 'Sports club / court', 'Pool', 'Trail / outdoors', 'Home', 'Ground / stadium'],
-  CITIES: ['Mumbai', 'Bengaluru', 'Delhi', 'Gurugram', 'Pune', 'Hyderabad', 'Chennai', 'Kolkata', 'Ahmedabad', 'Jaipur', 'Kochi', 'Chandigarh'],
+  CITIES: ['Mumbai', 'Bengaluru', 'Delhi', 'Gurugram', 'Pune', 'Hyderabad', 'Chennai', 'Kolkata', 'Ahmedabad', 'Jaipur', 'Kochi', 'Chandigarh', 'Lucknow', 'Indore', 'Goa'],
 };

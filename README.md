@@ -5,7 +5,7 @@ Matchmaking for people who move — runners, lifters, yogis, cyclists, swimmers,
 - **🤝 Buddy** — find training partners
 - **❤️ Dating** — meet someone who shares your lifestyle
 
-> **Demo build.** All 20 profiles are **fictional sample data** (Indian cities: Bengaluru, Mumbai, Delhi, Pune, Hyderabad, Chennai, Kochi…). Sample users auto-"like back" ~60% of the time and send a canned auto-reply in chat so the flows work solo.
+> **Demo build.** All 500 profiles are **fictional sample data** (Indian cities: Bengaluru, Mumbai, Delhi, Pune, Hyderabad, Chennai, Kochi…). Sample users auto-"like back" ~60% of the time and send a canned auto-reply in chat so the flows work solo.
 
 ## Run it
 
@@ -17,7 +17,7 @@ npm start            # http://localhost:3000   (PORT=8080 npm start to change)
 ```
 
 - Demo login: **demo@fitmatch.in / demo1234** (or click "Try the demo account"), or sign up with any email.
-- Sample accounts: `sample01@fitmatch.sample` … `sample20@fitmatch.sample`, password `sample123` — log in as one in another browser to test real two-person matching and chat.
+- Sample accounts: `sample001@fitmatch.sample` … `sample500@fitmatch.sample`, password `sample123` — log in as one in another browser to test real two-person matching and chat.
 - Reset data: `npm run reset` (deletes `fitmatch.db`, reseeds). DB is created & seeded automatically on first start.
 - API smoke test (server running): `npm test`
 
@@ -40,7 +40,7 @@ npm start            # http://localhost:3000   (PORT=8080 npm start to change)
 server.js     Express API + static hosting
 db.js         SQLite schema (node:sqlite) → fitmatch.db
 matching.js   Eligibility filters + compatibility scoring
-seed.js       20 fictional sample users + demo account
+seed.js       500 fictional sample users (20 hand-written + generated) + demo account
 constants.js  Activities, goals, levels, days/times, venue types, cities
 public/       Vanilla JS SPA (index.html, app.js, styles.css) — mobile-first dark theme
 test-api.sh   curl smoke test of the main flows
